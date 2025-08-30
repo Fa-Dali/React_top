@@ -18,11 +18,11 @@ export default function Page() {
           {/* <div className={styles.shape} /> */}
 
           <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
-            <strong>Добро пожаловать в Acme.</strong> Это пример для{' '}
-            <a href="https://nextjs.org/learn/" className="text-blue-500">
-              Next.js курса обучения
+            <strong>Поповские Бани</strong><br/>
+            {' '}
+            <a className="text-blue-500">
+              Панель управления
             </a>
-            , предоставленного площадкой Vercel.
           </p>
           <Link
             href="/login"
